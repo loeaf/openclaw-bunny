@@ -11,7 +11,7 @@ A macOS menu bar app that visualizes OpenClaw workload in real time.
 - Menu bar live status
 - Bot list (name, status)
 - Current keyword + pending keyword queue
-- Local bridge script for OpenClaw sessions + keyseo batch queue
+- Local bridge script for OpenClaw sessions
 
 ## Quick Start
 
@@ -45,9 +45,6 @@ OPENCLAW_BUNNY_STATUS_FILE=/tmp/openclaw-bunny-status.json ./scripts/run-bridge.
 ```bash
 # Poll interval in seconds
 OPENCLAW_BUNNY_POLL_SECONDS=2 ./scripts/run-bridge.sh
-
-# keyseo port candidates
-KEYSEO_PORTS=3001,3011 ./scripts/run-bridge.sh
 ```
 
 ## Build release artifact
